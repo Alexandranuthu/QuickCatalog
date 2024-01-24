@@ -14,7 +14,7 @@
             $role = $_POST["role"];
             $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
-            // Perform necessary validation and sanitization
+            
 
             // Establish a database connection
             $database_connection = mysqli_connect('localhost', 'root', '', 'register_login');
